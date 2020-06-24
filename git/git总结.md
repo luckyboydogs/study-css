@@ -14,3 +14,5 @@
 
  	1. git clone url
      + git的clone命令会为你自动将远程仓库命名为origin，拉取她的所有数据，创建一个指向他的master分支的指针，并且在本地将其命名为origin/master (origin/master可以看作远程仓库master分支在本地仓库中的一个镜像)。同时git也会给你一个与origin/master分支在指向同一个地方的本地master分支
+     + ![1592982850657](C:\个人的文档\summary\git\assets\1592982850657.png)
+     + 问题：如果此时远程仓库中除了master分支，还有bug，dev分支，那么克隆以后，本地仓库中会不会bug，dev分支呢？
